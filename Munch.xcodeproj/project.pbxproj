@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FD2B89C1D7D0766008ACC15 /* Munch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD2B8921D7D0766008ACC15 /* Munch.framework */; };
-		4FD2B8A11D7D0766008ACC15 /* MunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD2B8A01D7D0766008ACC15 /* MunchTests.swift */; };
-		4FD2B8A31D7D0766008ACC15 /* Munch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD2B8951D7D0766008ACC15 /* Munch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F09693D1D7D280E00D315C4 /* Munch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F09693B1D7D280E00D315C4 /* Munch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F0969431D7D28FF00D315C4 /* MunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09693F1D7D28D300D315C4 /* MunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +22,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F09693A1D7D280E00D315C4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
+		4F09693B1D7D280E00D315C4 /* Munch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Munch.h; path = Source/Munch.h; sourceTree = SOURCE_ROOT; };
+		4F09693E1D7D28D300D315C4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
+		4F09693F1D7D28D300D315C4 /* MunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MunchTests.swift; path = Tests/MunchTests.swift; sourceTree = SOURCE_ROOT; };
 		4FD2B8921D7D0766008ACC15 /* Munch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Munch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FD2B8951D7D0766008ACC15 /* Munch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Munch.h; sourceTree = "<group>"; };
-		4FD2B8961D7D0766008ACC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FD2B89B1D7D0766008ACC15 /* MunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FD2B8A01D7D0766008ACC15 /* MunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunchTests.swift; sourceTree = "<group>"; };
-		4FD2B8A21D7D0766008ACC15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD2B89C1D7D0766008ACC15 /* Munch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +51,8 @@
 		4FD2B8881D7D0766008ACC15 = {
 			isa = PBXGroup;
 			children = (
-				4FD2B8941D7D0766008ACC15 /* Munch */,
-				4FD2B89F1D7D0766008ACC15 /* MunchTests */,
+				4FD2B8941D7D0766008ACC15 /* Source */,
+				4FD2B89F1D7D0766008ACC15 /* Tests */,
 				4FD2B8931D7D0766008ACC15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,22 +66,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4FD2B8941D7D0766008ACC15 /* Munch */ = {
+		4FD2B8941D7D0766008ACC15 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				4FD2B8951D7D0766008ACC15 /* Munch.h */,
-				4FD2B8961D7D0766008ACC15 /* Info.plist */,
+				4F09693A1D7D280E00D315C4 /* Info.plist */,
+				4F09693B1D7D280E00D315C4 /* Munch.h */,
 			);
-			path = Munch;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		4FD2B89F1D7D0766008ACC15 /* MunchTests */ = {
+		4FD2B89F1D7D0766008ACC15 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4FD2B8A01D7D0766008ACC15 /* MunchTests.swift */,
-				4FD2B8A21D7D0766008ACC15 /* Info.plist */,
+				4F09693E1D7D28D300D315C4 /* Info.plist */,
+				4F09693F1D7D28D300D315C4 /* MunchTests.swift */,
 			);
-			path = MunchTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +91,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD2B8A31D7D0766008ACC15 /* Munch.h in Headers */,
+				4F09693D1D7D280E00D315C4 /* Munch.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +147,7 @@
 					4FD2B8911D7D0766008ACC15 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = U6Q7347D4Q;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					4FD2B89A1D7D0766008ACC15 = {
@@ -205,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FD2B8A11D7D0766008ACC15 /* MunchTests.swift in Sources */,
+				4F0969431D7D28FF00D315C4 /* MunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,19 +321,21 @@
 		4FD2B8A71D7D0766008ACC15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U6Q7347D4Q;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Munch/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.nstweak.mrahmiao.Munch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -342,13 +343,14 @@
 		4FD2B8A81D7D0766008ACC15 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = U6Q7347D4Q;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Munch/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -363,7 +365,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U6Q7347D4Q;
-				INFOPLIST_FILE = MunchTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.nstweak.mrahmiao.MunchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -375,7 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = U6Q7347D4Q;
-				INFOPLIST_FILE = MunchTests/Info.plist;
+				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = xyz.nstweak.mrahmiao.MunchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,6 +404,7 @@
 				4FD2B8A81D7D0766008ACC15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4FD2B8A91D7D0766008ACC15 /* Build configuration list for PBXNativeTarget "MunchTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +413,7 @@
 				4FD2B8AB1D7D0766008ACC15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
