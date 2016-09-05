@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4F09693D1D7D280E00D315C4 /* Munch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F09693B1D7D280E00D315C4 /* Munch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F0969431D7D28FF00D315C4 /* MunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F09693F1D7D28D300D315C4 /* MunchTests.swift */; };
+		4F0969451D7D29B600D315C4 /* Munch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0969441D7D29B600D315C4 /* Munch.swift */; };
+		4F0969481D7D2A6B00D315C4 /* CGPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0969461D7D29BC00D315C4 /* CGPointTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 		4F09693B1D7D280E00D315C4 /* Munch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Munch.h; path = Source/Munch.h; sourceTree = SOURCE_ROOT; };
 		4F09693E1D7D28D300D315C4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = SOURCE_ROOT; };
 		4F09693F1D7D28D300D315C4 /* MunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MunchTests.swift; path = Tests/MunchTests.swift; sourceTree = SOURCE_ROOT; };
+		4F0969441D7D29B600D315C4 /* Munch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Munch.swift; sourceTree = "<group>"; };
+		4F0969461D7D29BC00D315C4 /* CGPointTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointTests.swift; sourceTree = "<group>"; };
 		4FD2B8921D7D0766008ACC15 /* Munch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Munch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD2B89B1D7D0766008ACC15 /* MunchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,6 +73,7 @@
 		4FD2B8941D7D0766008ACC15 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4F0969441D7D29B600D315C4 /* Munch.swift */,
 				4F09693A1D7D280E00D315C4 /* Info.plist */,
 				4F09693B1D7D280E00D315C4 /* Munch.h */,
 			);
@@ -78,6 +83,7 @@
 		4FD2B89F1D7D0766008ACC15 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				4F0969461D7D29BC00D315C4 /* CGPointTests.swift */,
 				4F09693E1D7D28D300D315C4 /* Info.plist */,
 				4F09693F1D7D28D300D315C4 /* MunchTests.swift */,
 			);
@@ -197,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0969451D7D29B600D315C4 /* Munch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F0969481D7D2A6B00D315C4 /* CGPointTests.swift in Sources */,
 				4F0969431D7D28FF00D315C4 /* MunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
